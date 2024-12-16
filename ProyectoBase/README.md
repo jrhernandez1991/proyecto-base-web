@@ -100,5 +100,5 @@ ProyectoBase/
 - El proyecto requiere un navegador moderno que soporte **Shadow DOM** y **Custom Elements**.
 - La conexión a Internet es necesaria para cargar los datos de las APIs REST.
 
-## Autores
+## Autor
 - Jonathan Hernandez
