@@ -73,9 +73,6 @@ ProyectoBase/
 ## Instrucciones de Uso
 
 1. Clona este repositorio:
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   ```
 
 2. Abre el archivo `index.html` en un navegador web moderno.
 
@@ -91,7 +88,7 @@ ProyectoBase/
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
 - Web Components
 - APIs REST
 
