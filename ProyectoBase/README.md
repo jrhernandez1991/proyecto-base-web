@@ -25,44 +25,50 @@ ProyectoBase/
 2. **`components/`**
    - Carpeta que contiene los scripts de los Web Components.
 
-   - **`header.js`**: Muestra un encabezado con un título estilizado.
-   - **`footer.js`**: Pie de página con información de derechos de autor.
-   - **`main.js`**: Contenedor principal que utiliza slots para contenido dinámico.
-   - **`menu.js`**: Menú de navegación funcional para cambiar entre las páginas.
-   - **`socialProfile.js`**: Componente que muestra un perfil de usuario estático.
-   - **`customTable.js`**: Tabla que carga datos dinámicos desde la API REST `https://jsonplaceholder.typicode.com/users`.
-   - **`gallery.js`**: Galería de imágenes obtenidas dinámicamente desde la API REST `https://pokeapi.co/`.
+   - **`header.js`**: 
+     - **Funcionalidad**: Muestra un encabezado con un título estilizado.
+     - **Explicación**: 
+       - Crea un Shadow DOM para encapsular el contenido.
+       - Incluye un elemento `<header>` con estilos CSS personalizados.
+       - El título se define dentro de un `<h1>` estilizado.
 
-## Componentes
+   - **`footer.js`**: 
+     - **Funcionalidad**: Pie de página con derechos de autor.
+     - **Explicación**: 
+       - Usa un Shadow DOM para encapsular un elemento `<footer>`.
+       - Incluye estilos para un fondo oscuro, texto blanco y posición fija.
 
-### 1. Header
-- Encabezado con título estilizado.
-- **Archivo:** `header.js`
+   - **`main.js`**: 
+     - **Funcionalidad**: Contenedor dinámico que utiliza **slots** para insertar contenido.
+     - **Explicación**: 
+       - Crea un Shadow DOM con un `<main>` que define un slot para contenido dinámico.
+       - Aplica estilos básicos para el diseño responsivo.
 
-### 2. Footer
-- Pie de página con derechos de autor.
-- **Archivo:** `footer.js`
+   - **`menu.js`**: 
+     - **Funcionalidad**: Menú de navegación funcional con enlaces.
+     - **Explicación**: 
+       - Implementa enlaces con el atributo `data-page` para identificar secciones.
+       - Al hacer clic, cambia dinámicamente el contenido del `<main-element>`.
 
-### 3. Main
-- Contenedor dinámico que utiliza **slots** para insertar contenido.
-- **Archivo:** `main.js`
+   - **`socialProfile.js`**: 
+     - **Funcionalidad**: Componente que muestra un perfil de usuario estático.
+     - **Explicación**: 
+       - Usa un Shadow DOM con un diseño estilizado.
+       - Contiene una imagen, nombre, ocupación y descripción.
 
-### 4. Menu
-- Menú de navegación funcional con enlaces.
-- Cambia el contenido dinámico del `<main-element>` según la sección seleccionada.
-- **Archivo:** `menu.js`
+   - **`customTable.js`**: 
+     - **Funcionalidad**: Tabla personalizada que carga datos desde la API REST `https://jsonplaceholder.typicode.com/users`.
+     - **Explicación**: 
+       - Crea un Shadow DOM con un elemento `<table>`.
+       - Realiza una solicitud `fetch` para cargar los datos.
+       - Rellena la tabla dinámicamente con filas generadas.
 
-### 5. SocialProfile
-- Perfil de usuario estático con nombre, ocupación y descripción.
-- **Archivo:** `socialProfile.js`
-
-### 6. CustomTable
-- Tabla personalizada que carga datos desde la API REST `https://jsonplaceholder.typicode.com/users`.
-- **Archivo:** `customTable.js`
-
-### 7. Gallery
-- Galería que muestra imágenes y nombres de Pokémon obtenidos de la API REST `https://pokeapi.co/`.
-- **Archivo:** `gallery.js`
+   - **`gallery.js`**: 
+     - **Funcionalidad**: Galería que muestra imágenes y nombres de Pokémon obtenidos de la API REST `https://pokeapi.co/`.
+     - **Explicación**: 
+       - Crea un Shadow DOM con una galería responsiva.
+       - Usa la API para cargar imágenes y nombres dinámicamente.
+       - Cada ítem incluye una imagen y un nombre estilizado.
 
 ## Instrucciones de Uso
 
@@ -85,7 +91,7 @@ ProyectoBase/
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+)
 - Web Components
 - APIs REST
 
