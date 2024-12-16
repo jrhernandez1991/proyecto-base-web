@@ -74,6 +74,8 @@ ProyectoBase/
 
 1. Clona este repositorio:
 
+https://github.com/jrhernandez1991/proyecto-base-web.git
+
 2. Abre el archivo `index.html` en un navegador web moderno.
 
 3. Navega entre las diferentes páginas utilizando el menú principal.
